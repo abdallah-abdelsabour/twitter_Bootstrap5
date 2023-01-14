@@ -10,3 +10,18 @@
   background-color: #efefef;
   border-radius: 20px;
 }
+
+.my-3 {
+  /* background-color: #efefef; */
+  padding: 0.5rem;
+  cursor: pointer;
+  /* border-radius: 2rem; */
+  transition: all 0.5s;
+}
+.my-3 :hover {
+  background-color: #b2abab;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  transition: background-color 0.5s;
+}
